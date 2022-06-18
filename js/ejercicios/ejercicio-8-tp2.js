@@ -24,3 +24,4 @@ if (isNaN(piramide) || piramide > 50 || piramide < 1) {
     document.write("<br>");
   }
 }
+// 

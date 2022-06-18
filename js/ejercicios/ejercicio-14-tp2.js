@@ -4,4 +4,11 @@
 
  let frase = prompt('Ingrese frase');
 
- document.write()
+ for (let i = 0; frase.length; i++) {
+    let caracter = frase.charAt(i); //recupera el caracter i del string
+    if (i == frase.length -1) {
+        document.write(caracter);
+    } else {
+        document.write(caracter + "-");
+    }
+ }
